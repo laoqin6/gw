@@ -1,0 +1,10 @@
+{
+    "code":100,
+    "data":{
+        "checkPermission":true,
+ "versionCode":3,
+ "openUrl":"http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=2EOVb2qvhdBzzumMwwEx1jdDbup4lSb7&authKey=Mkr%2FiHkWcLwTtcJw1mZkL0v6qRKInPeC8WIjuNJrFRTlshi9Lm6R%2F9ZTogBRwMFl&noverify=0&group_code=753977817",
+        "shortAnnouncement":"<p>点击下方加群，更多福利等你来拿</p >",
+        "announcement":"<div>此工具可以很方便的获取 ele app 的 cookie，没有 xposed 的可以使用 LSpatch加载此模块，<br>你可以参考<b></b><p>啊啊啊啊测试</div>"
+    }
+}
