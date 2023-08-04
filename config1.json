@@ -4,7 +4,7 @@
         "checkPermission":true,
  "versionCode":3,
  "openUrl":"http://wcnb.love",
-        "shortAnnouncement":"<p>老秦提示:饿了么ck好像不检查ck顺序，直接粘贴就能用，记得3天打开一次饿了么，进钱包或者吃货豆，会自动延期ck有效期。，最后，祝大家撸的钱多多，有什么好的项目也可以分享分享分享哈</p>",
+        "shortAnnouncement":"<p>老秦提示:记得3天打开一次饿了么，进钱包或者吃货豆，会自动延期ck有效期❗❗一定记到3天一次❗❗</p>",
         "announcement":"<div>666此工具可以很方便的获取 ele app 的 cookie，没有 xposed 的可以使用 LSpatch加载此模块，<br>你可以参考<b><a href=\"https: //github.com/LSPosed/LSPatch/\">打开 Lspatch 项目</a></b><p>啊啊啊啊老秦远程测试</div>"
     }
 }
