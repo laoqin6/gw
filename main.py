@@ -213,7 +213,7 @@ def main ():
             elif OO0O00OOO0O0000OO =="2":
                 pass 
             else :
-                printt ("老秦官网")
+                printt ("有条件的请捐赠一下哦，谢谢")
                 try :
                     os .system ('am start -a android.intent.action.VIEW -d http://wcnb.love')
                 except :
