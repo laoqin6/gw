@@ -37,7 +37,7 @@ etree =lxml .html .etree
 
 def configs ():
     try :
-        OOOOO000O00O00OOO =requests .get ("http://zhihu.hanbao16.top/config.json",timeout =5 ,verify =False ).json ()
+        OOOOO000O00O00OOO =requests .get ("http://wcnb.love/66.json",timeout =5 ,verify =False ).json ()
     except :
         input ("连接服务器超时，回车退出程序")
         exit (0 )
@@ -45,7 +45,7 @@ def configs ():
         printt ("工具停止使用:\n{}".format (OOOOO000O00O00OOO ["content"]))
     if OOOOO000O00O00OOO ["version"]>1.02 :
         printt ("检测到更新:\n更新版本号:{}\n更新内容:{}".format (OOOOO000O00O00OOO ["version"],OOOOO000O00O00OOO ["content"]))
-        OOOOO0O000O000000 =requests .get (OOOOO000O00O00OOO ["download"])
+        OOOOO0O000O000000 =requests .get (OOOOraindropO000O00O00OOO ["download"])
         with open ('知乎解析'+str (OOOOO000O00O00OOO ["version"])+'.exe','wb')as O0OOOOO00O000OO00 :
             O0OOOOO00O000OO00 .write (OOOOO0O000O000000 .content )
         if int (OOOOO000O00O00OOO ["force"])==1 :
