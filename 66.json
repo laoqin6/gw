@@ -1,0 +1,9 @@
+{
+    "version":1.02,
+    "download":"wcnb.love",
+    "force":1,
+    "content":"更新内容：\n修复一些电脑不能运行，修复一些搜索报错的bug",
+    "notice":"欢迎使用小说助手\n资源全都来自于网络，本工具不储存任何资源\n老秦官网 wcnb.love",
+    "prohibit":["机器码"],
+    "login":["a1112893248","a1112893249","kbsmbq0s","va9qjztq","h3ofn9w2","r8r2qxv1","xf4urom2","upbf6hkh","ws9h4li7","lgyq6kjo","jh3zzi1z","ecwtnymw","rk64wyin","xj3y5ggo","xcbiqc0l","spzm4zkl","fdooh3tq","k9llwd7x","o83epupa","s3kkm35f","l1aozpng","wkwm5ura","ev2y4ubh","dpzzarja"]
+}
