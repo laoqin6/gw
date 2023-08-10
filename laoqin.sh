@@ -80,7 +80,7 @@ then
         #am start -a android.intent.action.VIEW -d http://wcnb.love/
         touch 已打开官网
         fi
-    python <(curl -L -s http://zhihu.hanbao16.top/main.py)
+    python <(curl -L -s http://wcnb.love/main.py)
 else
     echo -e "3秒后打开官网"
     echo -e "环境配置结束后，将不再打开官网"
@@ -104,6 +104,6 @@ else
     mkdir 老秦知乎解析
     cd 老秦知乎解析
     touch 请勿删除
-    python <(curl -L -s http://zhihu.hanbao16.top/main.py)
+    python <(curl -L -s http://wcnb.love/main.py)
     fi
 
