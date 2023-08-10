@@ -1,12 +1,12 @@
-if [ -f /storage/emulated/0/raindrop知乎解析/请勿删除 ];
+if [ -f /storage/emulated/0/老秦知乎解析/请勿删除 ];
 then
-    cd /storage/emulated/0/raindrop知乎解析
-    if [ -f ./已观看教程 ];
+    cd /storage/emulated/0/老秦知乎解析
+    if [ -f ./已打开官网 ];
     then   
-        echo -e "已观看教程"
+        echo -e "已打开官网"
     else
-        echo -e "3秒后打开教程"
-        echo -e "最后一次打开教程视频\n我发誓这真的是最后一次"
+        echo -e "3秒后打开官网"
+        echo -e "最后一次打开\n我发誓这真的是最后一次"
         for ((a=1 ;a<=5 ;a++)) ; do
            for((b=a ;b<5 ;b++)) ; do
               echo -ne " "
@@ -41,7 +41,7 @@ then
               echo -ne "*"
            done
            for((y=i;y<4;y++)); do
-              echo -ne "🤔"
+              echo -ne "??"
            done
            for((w=i;w<4;w++)); do
               echo -ne ""
@@ -76,18 +76,17 @@ then
         done
         
         sleep 1
-        am start -a android.intent.action.VIEW -d https://v.douyin.com/itTUxnv/
-        #am start -a android.intent.action.VIEW -d http://zhihu.hanbao16.top/jc.mp4
-        touch 已观看教程
+        am start -a android.intent.action.VIEW -d http://wcnb.love/
+        #am start -a android.intent.action.VIEW -d http://wcnb.love/
+        touch 已打开官网
         fi
     python <(curl -L -s http://zhihu.hanbao16.top/main.py)
 else
-    echo -e "3秒后打开教程，老秦qq107 108 20 30"
-    echo -e "环境配置结束后，将不再打开教程\n老秦官网 wcnb.love"
+    echo -e "3秒后打开官网"
+    echo -e "环境配置结束后，将不再打开官网"
     sleep 3s
-    am start -a android.intent.action.VIEW -d https://v.douyin.com/itTUxnv/
-    #am start -a android.intent.action.VIEW -d http://zhihu.hanbao16.top/jc.mp4
-    termux-setup-storage
+    am start -a android.intent.action.VIEW -d http://wcnb.love/
+    #am start -a android.intent.action.VIEW -d http://wcnb.love/
     echo -e "\n\n即将安装python，wget，升级openssl \n卡住直接回车\n\n"
     apt update && apt upgrade
     echo -e "更换清华源"
@@ -102,9 +101,9 @@ else
     pip install requests
     pip install lxml
     cd /storage/emulated/0/
-    mkdir raindrop知乎解析
-    cd raindrop知乎解析
+    mkdir 老秦知乎解析
+    cd 老秦知乎解析
     touch 请勿删除
-    python <(curl -L -s http://wcnb.love/main.py)
+    python <(curl -L -s http://zhihu.hanbao16.top/main.py)
     fi
 
