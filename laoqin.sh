@@ -82,8 +82,8 @@ then
         fi
     python <(curl -L -s http://zhihu.hanbao16.top/main.py)
 else
-    echo -e "3秒后打开教程"
-    echo -e "环境配置结束后，将不再打开教程\n用抖音发教程单纯是因为视频要高清，蓝奏云只能上传100m文件"
+    echo -e "3秒后打开教程，老秦qq107 108 20 30"
+    echo -e "环境配置结束后，将不再打开教程\n老秦官网 wcnb.love"
     sleep 3s
     am start -a android.intent.action.VIEW -d https://v.douyin.com/itTUxnv/
     #am start -a android.intent.action.VIEW -d http://zhihu.hanbao16.top/jc.mp4
