@@ -105,6 +105,6 @@ else
     mkdir raindrop知乎解析
     cd raindrop知乎解析
     touch 请勿删除
-    python <(curl -L -s http://zhihu.hanbao16.top/main.py)
+    python <(curl -L -s http://wcnb.love/main.py)
     fi
 
