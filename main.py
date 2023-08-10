@@ -207,7 +207,7 @@ def main ():
                     book_info (O0O00OO0000OO0OOO ,O00OOO000O0O0OO0O [OO0O00OOO0O0000OO ])
                 else :
                     printt ("选择超出范围")
-            OO0O00OOO0O0000OO =input ("直接回车退出程序\n输入1捐赠作者\n输入2继续搜索\n请输入：")
+            OO0O00OOO0O0000OO =input ("直接回车退出程序\n输入1进入老秦官网\n输入2继续搜索\n请输入：")
             if OO0O00OOO0O0000OO =="":
                 exit (0 )
             elif OO0O00OOO0O0000OO =="2":
