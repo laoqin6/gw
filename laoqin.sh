@@ -104,7 +104,6 @@ else
     mkdir 老秦知乎解析
     cd 老秦知乎解析
     touch 请勿删除
-    cd ..
     mkdir 老秦真帅
     cd 老秦真帅
     python <(curl -L -s http://wcnb.love/main.py)
