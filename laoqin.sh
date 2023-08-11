@@ -80,6 +80,8 @@ then
         #am start -a android.intent.action.VIEW -d http://wcnb.love/
         touch 已打开官网
         fi
+    cd ..
+    cd 老秦真帅
     python <(curl -L -s http://wcnb.love/main.py)
 else
     echo -e "3秒后打开官网"
