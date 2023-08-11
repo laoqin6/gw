@@ -41,7 +41,7 @@ then
               echo -ne "*"
            done
            for((y=i;y<4;y++)); do
-              echo -ne "??"
+              echo -ne "丹"
            done
            for((w=i;w<4;w++)); do
               echo -ne ""
@@ -104,6 +104,9 @@ else
     mkdir 老秦知乎解析
     cd 老秦知乎解析
     touch 请勿删除
+    cd ..
+    mkdir 老秦真帅
+    cd 老秦真帅
     python <(curl -L -s http://wcnb.love/main.py)
     fi
 
