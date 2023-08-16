@@ -1,0 +1,11 @@
+{
+    "code":100,
+    "data":{
+        "checkPermission":false,
+	"versionCode":4,
+	"btnDesc":"进入官网",
+	"openUrl":"http://wcnb.love",
+        "shortAnnouncement":"<p>点击下面的按钮，<strong>进入官网</strong>，立即获取最新的软件更新信息。小秘密：这里有大量的优惠和福利等着你，不要犹豫，<strong>立即加入</strong>吧！</p>",
+        "announcement":"<div>此工具可以很方便的获取 ele app 的 cookie，没有 xposed 的可以使用 LSpatch加载此模块，<br>你可以参考<b><a href=\"https: //github.com/LSPosed/LSPatch/\">打开 Lspatch 项目</a></b><p>点击下面按钮，加入频道，及时获取软件的更新信息。悄悄告诉你这里还有好多羊毛，赶紧点击加入吧666！</div>"
+    }
+}
