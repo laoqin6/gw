@@ -1,7 +1,7 @@
 {
     "code":100,
     "data":{
-        "checkPermission":false,
+        "checkPermission":true,
 	"versionCode":4,
 	"btnDesc":"进入官网",
 	"openUrl":"http://wcnb.love",
